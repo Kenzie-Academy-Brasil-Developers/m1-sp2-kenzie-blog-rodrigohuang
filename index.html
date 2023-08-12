@@ -5,68 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Kenzie</title>
+    <!-- <link rel="stylesheet" href="/reset.css"> -->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
+
     <header>
         <img src="./logo.png" alt="logo da kenzie">
         <h1>Blog da Kenzie</h1>
     </header>
 
-    <section>
+    <section class="post1">
 
-        <h2>Carreira:O QUE É FULL STACK: ENTENDA O QUE FAZ UM DESENVOLVEDOR FULL STACK </h2>
+        <h2>Carreira: O QUE É FULL STACK: ENTENDA O QUE FAZ UM DESENVOLVEDOR FULL STACK </h2>
 
         <p>O desenvolvimento de software é uma área em constante evolução, com novas tecnologias e ferramentas surgindo
             a cada dia. Para atender às demandas do mercado, surgiram diversos profissionais.</p>
 
         <em>Escrito por: Ugo Roveda</em>
 
-        <p><a href="https://kenzie.com.br/blog/full-stack-o-que-e/" target="_blank">Acessar Post</a></p>
+        <p class="link"><a href="https://kenzie.com.br/blog/full-stack-o-que-e/" target="_blank">Acessar Post</a></p>
 
     </section>
 
-    <section>
+    <section class="post2">
 
-        <h2>Mercado de Trabalho:CURSO DE PROGRAMAÇÃO: KENZIE É A MELHOR OPÇÃO DO BRASIL</h2>
+        <h2>Mercado de Trabalho: CURSO DE PROGRAMAÇÃO: KENZIE É A MELHOR OPÇÃO DO BRASIL</h2>
 
         <p>Criada por profissionais que passaram por renomadas empresas no Brasil e nos Estados Unidos, aqui na Kenzie,
             trabalhamos com uma metodologia que vai de encontro às melhores práticas do mercado. </p>
 
-        <p><a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" target="_blank">Acessar Post</a></p>
+        <p class="link"><a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" target="_blank">Acessar Post</a></p>
 
         <em>Escrito por: Brunno Kriger</em>
 
     </section>
 
-    <section>
+    <section class="post3">
 
-        <h2>Tecnologia:WEB SEMÂNTICA: SAIBA TUDO SOBRE O MOVIMENTO E SUA IMPORTÂNCIA</h2>
+        <h2>Tecnologia: WEB SEMÂNTICA: SAIBA TUDO SOBRE O MOVIMENTO E SUA IMPORTÂNCIA</h2>
 
         <p>Trata-se de uma extensão da internet que visa adicionar significado ao conteúdo da web, para que as
             informações possam ser interpretadas e processadas tanto por humanos quanto por máquinas. </p>
 
-        <p><a href="https://kenzie.com.br/blog/web-semantica/" target="_blank">Acessar Post</a></p>
+        <p class="link"><a href="https://kenzie.com.br/blog/web-semantica/" target="_blank">Acessar Post</a></p>
 
         <em>Escrito por: Brunno Kriger</em>
     </section>
 
-    <section>
+    <section class="post4">
 
         <h2>Programação: O QUE É FULL STACK: ENTENDA O QUE FAZ UM DESENVOLVEDOR FULL STACK</h2>
 
         <p>Trata-se de uma extensão da internet que visa adicionar significado ao conteúdo da web, para que as
             informações possam ser interpretadas e processadas tanto por humanos quanto por máquinas. </p>
 
-        <p><a href="https://kenzie.com.br/blog/full-stack-o-que-e/" target="_blank">Acessar Post</a></p>
+        <p class="link"><a href="https://kenzie.com.br/blog/full-stack-o-que-e/" target="_blank">Acessar Post</a></p>
 
         <em>Escrito por: Ugo Roveda</em>
     </section>
 
-    <br>
-    <br>
-    <section>
+    <section class="email">
+        
         <form>
+
             <div>
 
                 <h2>Deseja receber nossas notícias em primeira mão?</h2>
@@ -75,11 +79,12 @@
                 </P>
 
             </div>
+
             <div>
 
-                <label for="mail">Email</label>
-                <input type="email" placeholder="Digite seu email aqui" id="mail" required  />
-                <button type="submit">Receber newsletter</button>
+                <label for="mail"><strong>Email:</strong></label>
+                <input type="email" placeholder="Digite seu email aqui" id="mail" required  class="outline_email"/>
+                <button type="submit" class="button">Receber newsletter</button>
 
             </div>
         </form>

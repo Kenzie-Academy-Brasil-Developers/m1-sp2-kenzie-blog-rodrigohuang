@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    background-color: white;
+    text-align: center;
+    
+    
+}
+
+body{
+    background-color: #f1f3f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post1{
+
+    border-radius: 10px;
+    background-color: white;
+    width: 1000px;
+    padding: 5px 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.link{
+    text-align: right;
+}
+
+.post2{
+
+    border-radius: 10px;
+    background-color: white;
+    width: 1000px;
+    padding: 5px 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    
+}
+
+.post3{
+
+    border-radius: 10px;
+    background-color: white;
+    width: 1000px;
+    padding: 5px 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+.post4{
+
+    border-radius: 10px;
+    background-color: white;
+    width: 1000px;
+    padding: 5px 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+
+.email{
+    border: solid black;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: #1E90FF;
+    width: 1000px;
+    padding: 5px 10px;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    color: #f1f3f5;
+    text-align: center;
+
+}
+
+.button{
+    background-color: black;
+    color: white;
+    padding: 4px
+}
+
+.outline_email{
+    border-width: 4px;
+}
